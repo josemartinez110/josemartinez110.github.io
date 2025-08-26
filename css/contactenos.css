@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 600;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: #3399FF;
+}
+
+.contenido {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-contacto label {
+    font-weight: 600;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.form-contacto input:focus,
+.form-contacto textarea:focus {
+    outline: 2px solid #3399FF;
+    background-color: #111;
+    color: #fff;
+}
+
+.form-contacto button {
+    background-color: #3399FF;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.form-contacto button:hover {
+    background-color: #1a6ed8;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+}

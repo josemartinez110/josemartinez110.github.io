@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contáctenos - Rock en Español</title>
+    <link rel="stylesheet" href="css/contactenos.css" />
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Rock en Español</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contactenos.html" class="active">Contáctenos</a></li>
+            <li><a href="mimusica.html">Mi Música</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contenido">
+    <h1>Contáctenos</h1>
+    <p>¿Tienes dudas, sugerencias o quieres compartir tu música? Escríbenos aquí.</p>
+
+    <form action="mailto:tu-email@example.com" method="post" enctype="text/plain" class="form-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2025 Rock en Español. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
